@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/select_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_select_label"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <GridLayout
+        android:id="@+id/grid_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/select_label"
+        android:layout_centerHorizontal="true"
+        >
+        <CheckBox
+            android:id="@+id/note_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_a"
+            android:layout_margin="6dp"
+            />
+        <CheckBox
+            android:id="@+id/note_a_sharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_a_sharp"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_b_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_b_flat"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_b"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_c"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_c_sharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_c_sharp"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_d_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_d_flat"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_d"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_d_sharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_d_sharp"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_e_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_e_flat"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_e"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_f"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_f_sharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_f_sharp"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_g_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_g_flat"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_g"
+            android:layout_margin="6dp"
+
+            />
+        <CheckBox
+            android:id="@+id/note_g_sharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_g_sharp"
+            android:layout_margin="6dp"
+            />
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_start_button"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center"
+            />
+        <CheckBox
+            android:id="@+id/note_a_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_note_a_flat"
+            android:layout_margin="6dp"
+
+            />
+    </GridLayout>
+
+
+</RelativeLayout>
